@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
 import Support from "./components/Support";
+import Register from "./components/Register";
 
 function App() {
   return (
@@ -36,6 +37,12 @@ function App() {
             <Support />
           </Route>
           {/**support page route */}
+
+          {/* Register Page Route */}
+          <Route exact path="/register">
+            <Register />
+          </Route>
+          {/* Register Page Route */}
         </Switch>
         <Footer />
       </div>
