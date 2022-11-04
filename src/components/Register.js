@@ -5,7 +5,7 @@ const Register = () => {
         <h3>Register</h3>
         <p>Enter these few information to become a Travas supplier today!</p>
       </div>
-      <form>
+      <form className="space-y-4">
         {/* business/company name */}
         <div>
           <label for="business-name">Registered business/company name</label>
@@ -42,10 +42,15 @@ const Register = () => {
             id="password"
             placeholder="Password"
           />
+          <br />
           <input type="password" placeholder="Confirm password" />
         </div>
 
-        <input className="bg-[#B6B1B1]" type="submit" placeholder="Register" />
+        <input
+          className="bg-[#B6B1B1] py-3 px-16 pointer"
+          type="submit"
+          placeholder="Register"
+        />
       </form>
       <div>
         <p>
@@ -58,8 +63,8 @@ const Register = () => {
           By registering, you hereby agree to the Travas{" "}
           <a className="text-[#1F66D0]" href="">
             Privacy Policy
-          </a>{" "}
-          and{" "}
+          </a>
+          and
           <a className="text-[#1F66D0]" href="">
             Terms of use
           </a>
