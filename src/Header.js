@@ -39,7 +39,7 @@ const Header = () => {
           Log In
         </button>
         <button className="bg-blue-500 font-[700] text-[0.90rem] text-white px-[20px] py-[5px] rounded-md border-2 border-blue-500 hover:bg-blue-500 hover:translate-y-[6px] transition-all duration-300">
-          Sign Up
+          <Link to="/register">Sign Up</Link>
         </button>
       </div>
     </header>

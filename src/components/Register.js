@@ -45,7 +45,7 @@ const Register = () => {
           <input type="password" placeholder="Confirm password" />
         </div>
 
-        <input type="submit" placeholder="Register" />
+        <input className="bg-[#B6B1B1]" type="submit" placeholder="Register" />
       </form>
       <div>
         <p>
