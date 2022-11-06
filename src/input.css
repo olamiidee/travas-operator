@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+@layer components {
+  .reg-input {
+    @apply bg-[#F5F5F5] text-black text-opacity-50 block pl-4 py-2.5 focus:outline-none rounded-sm w-[45%];
+  }
+}

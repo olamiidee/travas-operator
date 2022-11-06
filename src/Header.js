@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="w-full h-20 bg-white px-[50px] fixed top-0 left-0 flex items-center z-[100] shadow-md">
+    <header className="w-full h-20 bg-white px-[80px] fixed top-0 left-0 flex items-center z-[100] shadow-md">
       <Link to="/" className="mr-[150px]">
         <div className="w-20 h-10 border-[2px] border-blue-500 flex items-center gap-[0px] cursor-pointer">
           LOGO
@@ -36,7 +36,7 @@ const Header = () => {
       </nav>
       <div>
         <button className="bg-white font-[700] text-[0.90rem] text-blue-500 mr-[20px] px-[20px] py-[5px] border-2 border-blue-500 rounded-md hover:bg-blue-500 hover:text-white hover:translate-y-[6px] transition-all duration-300">
-          Log In
+          <Link to="/login">Log In</Link>
         </button>
         <button className="bg-blue-500 font-[700] text-[0.90rem] text-white px-[20px] py-[5px] rounded-md border-2 border-blue-500 hover:bg-blue-500 hover:translate-y-[6px] transition-all duration-300">
           <Link to="/register">Sign Up</Link>

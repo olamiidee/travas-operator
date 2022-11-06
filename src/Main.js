@@ -1,6 +1,6 @@
 const Main = () => {
   return (
-    <div className="pt-[90px] px-[50px]">
+    <div className="pt-[90px] px-[80px]">
       <div className="flex items-center space-x-4">
         <img src="/images/nigeria-heart-flag.svg" alt="nigeria-heart-flag" />
         <p> Perfectly designed for domestic tour operators within Nigeria</p>

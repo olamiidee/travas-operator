@@ -1,11 +1,12 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import Main from "./Main";
-import "./output.css";
+import "./input.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
 import Support from "./components/Support";
+import Login from "./components/Login";
 import Register from "./components/Register";
 
 function App() {
@@ -37,6 +38,12 @@ function App() {
             <Support />
           </Route>
           {/**support page route */}
+
+          {/* Login Page Route */}
+          <Route exact path="/login">
+            <Login />
+          </Route>
+          {/* Login Page Route */}
 
           {/* Register Page Route */}
           <Route exact path="/register">
