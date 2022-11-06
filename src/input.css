@@ -11,6 +11,7 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+/* to edit placeholder */
 input,
 input::-webkit-input-placeholder {
   font-size: 14px;
@@ -18,6 +19,9 @@ input::-webkit-input-placeholder {
 
 @layer components {
   .reg-input {
-    @apply bg-[#F5F5F5] text-black text-opacity-50 block pl-4 py-2.5 focus:outline-none rounded-sm w-[45%];
+    @apply bg-[#F5F5F5] text-black text-opacity-50 block pl-4 py-2.5 focus:outline-none rounded-sm w-full;
+  }
+  .login-input {
+    @apply bg-[#F5F5F5] text-black text-opacity-50 pl-6 py-2.5 focus:outline-none rounded-sm w-full;
   }
 }
