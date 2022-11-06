@@ -1,6 +1,6 @@
 const Login = () => {
   return (
-    <div className="pt-[150px] w-[80%] mx-auto space-y-16 md:pl-[80px] md:mx-0  md:w-[45%]">
+    <div className="pt-[150px] w-[90%] mx-auto space-y-16 md:pl-[80px] md:mx-0  md:w-[45%]">
       <h2 className="font-bold md:text-2xl">Login</h2>
 
       {/* Login form container */}
@@ -9,7 +9,7 @@ const Login = () => {
           {/* email */}
           <div>
             <input
-              className="bg-[#F5F5F5] pl-6 py-2.5 focus:outline-none rounded-sm w-full"
+              className="login-input"
               type="email"
               placeholder="Email address"
             />
@@ -17,7 +17,7 @@ const Login = () => {
           {/* password */}
           <div>
             <input
-              className="bg-[#F5F5F5] pl-6 py-2.5 focus:outline-none rounded-sm w-full"
+              className="login-input"
               type="password"
               placeholder="Password"
             />

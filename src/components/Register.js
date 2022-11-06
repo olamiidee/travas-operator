@@ -1,6 +1,6 @@
 const Register = () => {
   return (
-    <div className="pt-[150px] pl-[80px] space-y-8">
+    <div className="pt-[150px] mx-auto space-y-8 w-[90%] md:mx-0 md:w-[45%] md:pl-[80px]">
       <div className="pb-8">
         <h2 className="font-bold pb-4 md:text-2xl">Register</h2>
         <p>Enter these few information to become a Travas supplier today!</p>
@@ -35,7 +35,7 @@ const Register = () => {
               required
             />
           </div>
-          <div className="w-[45%]">
+          <div className="w-full">
             <input
               className="bg-[#F5F5F5] text-black text-opacity-50 w-[20%] pl-6 py-2.5 focus:outline-none rounded-sm"
               type="dropdown"
@@ -74,7 +74,7 @@ const Register = () => {
         {/* Register */}
         <div className="pt-8">
           <button
-            className="bg-[#B6B1B1] font-semibold text-center py-3 w-[45%] rounded-sm pointer"
+            className="bg-[#B6B1B1] font-semibold text-center py-3 w-full rounded-sm pointer"
             type="submit"
           >
             Register
@@ -82,7 +82,7 @@ const Register = () => {
         </div>
       </form>
 
-      <div className="w-[45%] space-y-5">
+      <div className="w-full space-y-5">
         <p className="text-center">
           Already have an account?<span> </span>
           <a href="" className="text-[#1F66D0]">
