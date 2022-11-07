@@ -8,6 +8,8 @@ import Pricing from "./components/Pricing";
 import Support from "./components/Support";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import Verify from "./components/Verify";
+import Step1 from "./components/Step1";
 
 function App() {
   return (
@@ -50,6 +52,18 @@ function App() {
             <Register />
           </Route>
           {/* Register Page Route */}
+
+          {/* verify identity Route */}
+          <Route exact path="/verify">
+            <Verify />
+          </Route>
+          {/* Verify identity Route */}
+
+          {/* Step1 Route */}
+          <Route exact path="/step1">
+            <Step1 />
+          </Route>
+          {/* Step1 Route */}
         </Switch>
         <Footer />
       </div>

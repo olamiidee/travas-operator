@@ -22,6 +22,9 @@ input::-webkit-input-placeholder {
     @apply bg-[#F5F5F5] text-black text-opacity-50 block pl-4 py-2.5 focus:outline-none rounded-sm w-full;
   }
   .login-input {
-    @apply bg-[#F5F5F5] text-black text-opacity-50 pl-6 py-2.5 focus:outline-none rounded-sm w-full;
+    @apply bg-[#F5F5F5] text-black text-opacity-50 pl-4 py-2.5 focus:outline-none rounded-sm w-full;
+  }
+  .verify-input {
+    @apply bg-[#F5F5F5] text-[#079F32] text-opacity-50 pl-4 py-2.5 focus:outline-none rounded-sm w-full;
   }
 }

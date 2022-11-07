@@ -37,7 +37,7 @@ const Register = () => {
           </div>
           <div className="w-full">
             <input
-              className="bg-[#F5F5F5] text-black text-opacity-50 w-[20%] pl-6 py-2.5 focus:outline-none rounded-sm"
+              className="bg-[#F5F5F5] text-black text-opacity-50 w-[20%] pl-4 py-2.5 focus:outline-none rounded-sm"
               type="dropdown"
             />
             <input
