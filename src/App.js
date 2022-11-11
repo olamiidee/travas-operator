@@ -64,6 +64,12 @@ function App() {
             <Step1 />
           </Route>
           {/* Step1 Route */}
+
+          {/* Step2 Route */}
+          <Route exact path="/step2">
+            <Step2 />
+          </Route>
+          {/* Step2 Route */}
         </Switch>
         <Footer />
       </div>
