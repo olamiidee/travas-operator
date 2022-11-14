@@ -12,6 +12,7 @@ import Verify from "./components/Verify";
 import Step1 from "./components/Step1";
 import Step2 from "./components/Step2";
 import Step3 from "./components/Step3";
+import Preview from "./components/Step3";
 
 function App() {
   return (
@@ -79,6 +80,11 @@ function App() {
           </Route>
           {/* Step3 Route */}
         </Switch>
+
+        {/* Preview Route */}
+        <Route exact path="/preview">
+          <Preview />
+        </Route>
         <Footer />
       </div>
     </Router>

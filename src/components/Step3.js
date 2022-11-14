@@ -1,11 +1,11 @@
 import React from "react";
 
-function Step3() {
+export default function Step3() {
   return (
     <div className="pt-[100px] md:pt-[120px] w-[90%] px-1 mx-auto md:w-full md:mx-0 md:px-[80px] pb-20">
       <div className="flex items-center space-x-4">
         <img className="w-[16px]" src="/images/arrow.svg" alt="arrow" />
-        <p>Step 1</p>
+        <p>Step 3</p>
       </div>
       {/* progress ball 2 */}
       <div className="w-full flex justify-center">
@@ -33,12 +33,12 @@ function Step3() {
 
       {/* Guidelines */}
       <div className="mt-10 space-y-2">
-        <h3>Guidelines</h3>
+        <h3 className="font-medium">Guidelines</h3>
         <p className="font-light">
           Give your clients some important rules they will need to adhere to
           better their safety, comfort and overall experience
         </p>
-        <p className="font-medium">Give a minimum of 2, maximum of 6</p>
+        <p className="font-medium text-sm">Give a minimum of 2, maximum of 6</p>
 
         {/* Guideline input */}
         {/* first row */}
@@ -80,16 +80,31 @@ function Step3() {
         </div>
       </div>
       {/* Assign a tour guide */}
-      <div>
-        <h3>Assign a tour guide</h3>
+      <div className="mt-10 space-y-2">
+        <h3 className="font-medium">Assign a tour guide</h3>
         <p className="font-light">And lastly assign a tour to your package</p>
-        <p className="font-medium">
+        <p className="font-medium text-sm">
           A tour guide impacts the overall experience of tourists during the
-          tour <br> by a lot. So get the best!</br>
+          tour by a lot. So get the best!
         </p>
       </div>
-      {/* Back and submit button */}
 
+      {/* Assign budget */}
+      <div className="flex justify-start mt-24 space-x-6">
+        <button className="bg-[#1F66D0] text-white font-semibold py-2 px-12 flex items-center shadow-md">
+          Assign
+          <span className="pl-4">
+            <img className="w-[14px]" src="/images/plus2.svg" />
+          </span>
+        </button>
+      </div>
+
+      {/* Invite */}
+      <div className="pt-16">
+        <a className="text-[#1F66D0] text-sm font-medium">Invite a new guide</a>
+      </div>
+
+      {/* Back and submit button */}
       <div className="flex justify-end mt-24 space-x-6">
         <button className="text-[#1F66D0] bg-white border border-[#1F66D0] font-semibold py-3 px-24">
           Back
@@ -101,5 +116,3 @@ function Step3() {
     </div>
   );
 }
-
-export default Step3;
