@@ -10,6 +10,8 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Verify from "./components/Verify";
 import Step1 from "./components/Step1";
+import Step2 from "./components/Step2";
+import Step3 from "./components/Step3";
 
 function App() {
   return (
@@ -70,6 +72,12 @@ function App() {
             <Step2 />
           </Route>
           {/* Step2 Route */}
+
+          {/* Step3 Route */}
+          <Route exact path="/step3">
+            <Step3 />
+          </Route>
+          {/* Step3 Route */}
         </Switch>
         <Footer />
       </div>
