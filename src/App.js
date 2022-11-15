@@ -12,7 +12,7 @@ import Verify from "./components/Verify";
 import Step1 from "./components/Step1";
 import Step2 from "./components/Step2";
 import Step3 from "./components/Step3";
-import Preview from "./components/Step3";
+import Preview from "./components/Preview";
 
 function App() {
   return (
