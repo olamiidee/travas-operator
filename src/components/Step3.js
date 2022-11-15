@@ -21,7 +21,7 @@ export default function Step3() {
           />
         </div>
 
-        <div className="flex flex-col border rounded-3xl px-9 py-2">
+        <div className="flex flex-col border rounded-3xl px-5 py-2 md:px-9">
           <p className="font-medium">Get creative!</p>
           <p className="font-light">
             Don’t just stick to the old ways. Try out new ways to satisfy your
@@ -42,20 +42,20 @@ export default function Step3() {
 
         {/* Guideline input */}
         {/* first row */}
-        <div className="flex space-x-6 w-[100%] pt-9">
-          <div className="w-[25%]">
+        <div className="flex flex-wrap gap-6 w-[100%] pt-9">
+          <div>
             <input
               className="border-b-2 focus:outline-none pl-2 pb-2 placeholder:text-xs"
               placeholder="Guideline 1"
             />
           </div>
-          <div className="w-[25%]">
+          <div>
             <input
               className="border-b-2 focus:outline-none pl-2 pb-2 placeholder:text-xs"
               placeholder="Guideline 2"
             />
           </div>
-          <div className="w-[25%]">
+          <div>
             <input
               className="border-b-2 focus:outline-none pl-2 pb-2 placeholder:text-xs"
               placeholder="Guideline 3"
@@ -64,14 +64,14 @@ export default function Step3() {
         </div>
 
         {/* second row */}
-        <div className="flex space-x-6 w-[100%] pt-9">
-          <div className="w-[25%]">
+        <div className="flex flex-wrap gap-6 w-[100%] pt-4">
+          <div>
             <input
               className="border-b-2 focus:outline-none pl-2 pb-2 placeholder:text-xs"
               placeholder="Guideline 4"
             />
           </div>
-          <div className="w-[25%]">
+          <div>
             <input
               className="border-b-2 focus:outline-none pl-2 pb-2 placeholder:text-xs"
               placeholder="Guideline 5"
@@ -105,11 +105,11 @@ export default function Step3() {
       </div>
 
       {/* Back and submit button */}
-      <div className="flex justify-end mt-24 space-x-6">
-        <button className="text-[#1F66D0] bg-white border border-[#1F66D0] font-semibold py-3 px-24">
+      <div className="flex sm:justify-end justify-between mt-24 space-x-6">
+        <button className="text-[#1F66D0] bg-white border border-[#1F66D0] font-semibold px-12 py-3 md:px-24">
           Back
         </button>
-        <button className="bg-[#1F66D0] text-white font-semibold py-3 px-24">
+        <button className="bg-[#1F66D0] text-white font-semibold px-12 py-3 md:px-24">
           Submit
         </button>
       </div>

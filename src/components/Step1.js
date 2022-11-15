@@ -21,7 +21,7 @@ function Step1() {
           />
         </div>
 
-        <div className="flex flex-col border rounded-3xl px-9 py-2">
+        <div className="flex flex-col border rounded-3xl px-5 py-2 md:px-9">
           <p className="font-medium">Put it out there!</p>
           <p className="font-light">
             Get your tour package in front of a large audience of tourist and
@@ -83,9 +83,9 @@ function Step1() {
             </p>
           </div>
 
-          <div className="flex justify-between space-x-6 w-[100%]">
+          <div className="flex flex-wrap justify-between gap-6 w-[100%]">
             {/* Start time */}
-            <div className="space-y-6 flex flex-col w-[33.3%]">
+            <div className="space-y-6 flex flex-col">
               <label for="time">Start time</label>
               <div className="flex items-center space-x-6">
                 <input
@@ -101,7 +101,7 @@ function Step1() {
             </div>
 
             {/* Start date */}
-            <div className="space-y-6 flex flex-col w-[33.3%]">
+            <div className="space-y-6 flex flex-col">
               <label for="time">Start date</label>
               <div id="time" className="number flex items-center space-x-6">
                 {/* day */}
@@ -144,7 +144,7 @@ function Step1() {
             </div>
 
             {/* Start time */}
-            <div className="space-y-6 flex flex-col w-[33.3%]">
+            <div className="space-y-6 flex flex-col">
               <label for="time">Start time</label>
               <div id="time" className="number flex items-center space-x-6">
                 {/* day */}
@@ -200,36 +200,36 @@ function Step1() {
         {/* More info */}
         <div className="space-y-2 pt-12">
           <p className="font-medium">More info</p>
-          <div className="flex items-center justify-between space-x-6 w-[100%]">
+          <div className="flex items-center flex-wrap gap-6 justify-between w-[100%]">
             {/* price/ per person */}
-            <div className="flex flex-col w-[33.3%] space-y-6">
+            <div className="flex flex-col space-y-6">
               <label for="price">Price Per Person</label>
               <input
-                className="border-b-2 focus:outline-none pl-1 pb-2 w-[70%]"
+                className="border-b-2 focus:outline-none pl-1 pb-2"
                 id="price"
                 type="number"
                 placeholder="00:00"
               />
             </div>
             {/* Language */}
-            <div className="flex flex-col w-[33.3%] space-y-6">
+            <div className="flex flex-col space-y-6">
               <label for="language">
                 Language your tour would be offered in
               </label>
               <input
-                className="border-b-2 focus:outline-none pl-1 pb-2 w-[75%]"
+                className="border-b-2 focus:outline-none pl-1 pb-2"
                 id="language"
                 type="text"
                 placeholder="Language"
               />
             </div>
             {/* Number of tourists */}
-            <div className="flex flex-col w-[33.3%] space-y-6">
+            <div className="flex flex-col space-y-6">
               <label for="num_of_tourists">
                 Maximum number of tourists you can take
               </label>
               <input
-                className="border-b-2 focus:outline-none pl-1 pb-2 w-[75%]"
+                className="border-b-2 focus:outline-none pl-1 pb-2"
                 id="num_of_tourists"
                 type="number"
                 placeholder="0000"
@@ -240,7 +240,7 @@ function Step1() {
 
         {/* Next Button */}
         <div className="flex justify-end mt-24">
-          <button className="bg-[#1F66D0] text-white font-semibold py-3 px-24">
+          <button className="bg-[#1F66D0] text-white font-semibold px-12 py-3 md:px-24">
             Next
           </button>
         </div>
