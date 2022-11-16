@@ -2,7 +2,7 @@ import React from "react";
 
 const Verify = () => {
   return (
-    <div className="pt-[100px] md:pt-[150px] w-[90%] mx-auto md:w-[50%] md:mx-0 md:pl-[80px] pb-48">
+    <div className="pt-[100px] pb-48 w-[90%] mx-auto md:w-[50%] md:pt-[150px] md:mx-0 md:pl-[80px]">
       <div className="flex items-center space-x-4">
         <img src="/images/arrow.svg" alt="arrow" />
         <h2>Verify identity</h2>
