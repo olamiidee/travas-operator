@@ -9,7 +9,11 @@ export default function Step3() {
       </div>
       {/* progress ball 2 */}
       <div className="w-full flex justify-center">
-        <img className="w-[20%]" src="images/Progress ball-1.svg" alt="" />
+        <img
+          className="w-[20%]"
+          src="images/Progress-balls-3.svg"
+          alt="Progress-balls-3"
+        />
       </div>
       {/*  Get creative */}
       <div className="flex items-center space-x-5 pt-8">

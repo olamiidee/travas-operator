@@ -79,12 +79,13 @@ function App() {
             <Step3 />
           </Route>
           {/* Step3 Route */}
+
+          {/* Preview Route */}
+          <Route exact path="/preview">
+            <Preview />
+          </Route>
         </Switch>
 
-        {/* Preview Route */}
-        <Route exact path="/preview">
-          <Preview />
-        </Route>
         <Footer />
       </div>
     </Router>

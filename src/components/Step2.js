@@ -9,7 +9,12 @@ function Step2() {
       </div>
       {/* progress ball 2 */}
       <div className="w-full flex justify-center">
-        <img className="w-[20%]" src="images/Progress ball-1.svg" alt="" />
+        <img
+          className="w-[20%]"
+          src="images/Progress-balls-2.svg"
+          alt="Progress ball-2"
+        />
+        <div></div>
       </div>
       {/*  Get creative */}
       <div className="flex items-center space-x-5 pt-8">
@@ -56,17 +61,27 @@ function Step2() {
           Highlight the most interesting and juicy parts of your tour package,
           so tourists can easilt spot them
         </p>
-        <div className="border-2 px-3 py-6 md:py-8 md:pr-9 md:w-[70%]">
+        <div className="relative border-2 px-3 py-6  mx-auto md:py-8 md:pr-9 md:w-[70%] md:mx-0">
           <p>Sample</p>
-          <div className="flex items-center justify-evenly font-light text-sm">
-            <div className="pr-4">
+          <div className="flex items-center justify-between font-light text-sm w-full">
+            <div className="pr-4 flex items-center space-x-2">
+              <div className="bg-[#B6B1B1] rounded-full w-3 h-3"></div>
               <p>Luxurious accomodation</p>
             </div>
-            <div className="pr-4">
+            <div className="pr-4 flex items-center space-x-2">
+              <div className="bg-[#B6B1B1] rounded-full w-3 h-3"></div>
               <p>An amazing and caring tour guide</p>
             </div>
-            <div className="pr-2">
+            <div className="pr-2 flex items-center space-x-2">
+              <div className="bg-[#B6B1B1] rounded-full w-3 h-3"></div>
               <p>Delicious local dishes</p>
+            </div>
+            <div className="absolute -right-9 -top-10 md:top-10 md:left-[70%] md:w-fit">
+              <img
+                className="md:w-[80%]"
+                src="/images/Cancel.svg"
+                alt="cancel-icon"
+              />
             </div>
           </div>
         </div>
@@ -109,7 +124,9 @@ function Step2() {
           </div>
           <div className="flex items-center space-x-3 w-[25%]">
             <img src="/images/plus.svg" />
-            <p className="text-[#1F66D0]"> Add more</p>
+            <a className="text-[#1F66D0]" href="">
+              Add more
+            </a>
           </div>
         </div>
       </div>
