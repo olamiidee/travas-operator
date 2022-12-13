@@ -1,3 +1,5 @@
+import Slider from "./components/Home/Slider";
+
 const Main = () => {
   return (
     <div className="pt-[90px] px-[5%]">
@@ -6,7 +8,7 @@ const Main = () => {
         <p> Perfectly designed for domestic tour operators within Nigeria</p>
       </div>
       {/* Slider Section */}
-      <div></div>
+      <Slider />
       {/* Slider Section Ends */}
       <div className="bg-[#3F3D56] pt-12 pb-20 space-y-28 mb-16">
         {/* About Section*/}
