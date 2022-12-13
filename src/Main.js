@@ -148,7 +148,7 @@ const Main = () => {
           </button>
           <p>
             Already have an account?
-            <a href="" className="text-[#1F66D0]">
+            <a href="#" className="text-[#1F66D0]">
               Login
             </a>
           </p>
